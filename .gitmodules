@@ -1,0 +1,3 @@
+[submodule "qiskit-aer"]
+	path = qiskit-aer
+	url = https://github.com/sgsikorski/qiskit-aer
