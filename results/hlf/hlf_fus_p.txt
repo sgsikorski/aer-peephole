@@ -1,0 +1,84 @@
+
+===================================
+hlf: 0
+Time taken to execute: 0.015039196
+Time taken to transpile: 0.37300273140246587
+Max CPU Memory: 257121
+Max GPU Memory: 44018
+===================================
+
+===================================
+hlf: 1
+Time taken to execute: 0.023830573
+Time taken to transpile: 0.003979426216064452
+Max CPU Memory: 257121
+Max GPU Memory: 44018
+===================================
+
+===================================
+hlf: 2
+Time taken to execute: 0.021461024
+Time taken to transpile: 0.0026873021711425796
+Max CPU Memory: 257121
+Max GPU Memory: 44018
+===================================
+
+===================================
+hlf: 3
+Time taken to execute: 0.023325679
+Time taken to transpile: 0.0024780365756835953
+Max CPU Memory: 257121
+Max GPU Memory: 44018
+===================================
+
+===================================
+hlf: 4
+Time taken to execute: 0.014529209
+Time taken to transpile: 0.00153886076147461
+Max CPU Memory: 257121
+Max GPU Memory: 44018
+===================================
+
+===================================
+hlf: 5
+Time taken to execute: 0.019041575
+Time taken to transpile: 0.0024914148239746077
+Max CPU Memory: 257121
+Max GPU Memory: 44018
+===================================
+
+===================================
+hlf: 6
+Time taken to execute: 0.022158497
+Time taken to transpile: 0.003337233559448243
+Max CPU Memory: 257121
+Max GPU Memory: 44018
+===================================
+
+===================================
+hlf: 7
+Time taken to execute: 0.02966618
+Time taken to transpile: 0.002690846198242187
+Max CPU Memory: 257121
+Max GPU Memory: 44018
+===================================
+
+===================================
+hlf: 8
+Time taken to execute: 0.02937102
+Time taken to transpile: 0.002351636778930663
+Max CPU Memory: 257121
+Max GPU Memory: 44018
+===================================
+
+===================================
+hlf: 9
+Time taken to execute: 0.017969125
+Time taken to transpile: 0.0021924679001464856
+Max CPU Memory: 257121
+Max GPU Memory: 44018
+===================================
+Mean execute: 0.021639207799999997
+STD execute: 0.00496477917436711
+Mean transpile: 0.03789553642272949
+STD transpile: 0.06329557617387933
