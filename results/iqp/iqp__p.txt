@@ -1,0 +1,264 @@
+
+===================================
+iqp: 0
+Time taken to execute: 2.63100287
+Time taken to transpile: 0.44086096139135733
+Max CPU Memory: 257121
+Max GPU Memory: 44018
+===================================
+
+===================================
+iqp: 1
+Time taken to execute: 2.624768465
+Time taken to transpile: 0.005574079207885913
+Max CPU Memory: 257121
+Max GPU Memory: 44018
+===================================
+
+===================================
+iqp: 2
+Time taken to execute: 2.609377997
+Time taken to transpile: 0.014098984928588696
+Max CPU Memory: 257121
+Max GPU Memory: 44018
+===================================
+
+===================================
+iqp: 3
+Time taken to execute: 2.623453485
+Time taken to transpile: 0.014115030302123827
+Max CPU Memory: 257121
+Max GPU Memory: 44018
+===================================
+
+===================================
+iqp: 4
+Time taken to execute: 2.617105265
+Time taken to transpile: 0.01397912353198224
+Max CPU Memory: 257121
+Max GPU Memory: 44018
+===================================
+Mean execute: 2.6211416164
+STD execute: 0.007354154795309049
+Mean transpile: 0.03430805206298828
+STD transpile: 0.00888348116723548
+
+===================================
+iqp: 0
+Time taken to execute: 0.000147147
+Time taken to transpile: 0.44258294457739256
+Max CPU Memory: 257121
+Max GPU Memory: 44018
+===================================
+
+===================================
+iqp: 1
+Time taken to execute: 0.000135827
+Time taken to transpile: 0.0009612923469238281
+Max CPU Memory: 257121
+Max GPU Memory: 44018
+===================================
+
+===================================
+iqp: 2
+Time taken to execute: 0.00016507
+Time taken to transpile: 0.0011164251643066407
+Max CPU Memory: 257121
+Max GPU Memory: 44018
+===================================
+
+===================================
+iqp: 3
+Time taken to execute: 0.000182767
+Time taken to transpile: 0.0012000304790039064
+Max CPU Memory: 257121
+Max GPU Memory: 44018
+===================================
+
+===================================
+iqp: 4
+Time taken to execute: 0.000181731
+Time taken to transpile: 0.0011668342036132812
+Max CPU Memory: 257121
+Max GPU Memory: 44018
+===================================
+Mean execute: 0.00016250839999999998
+STD execute: 1.862445024799389e-05
+Mean transpile: 0.01631760597229004
+STD transpile: 0.010008251026577661
+
+===================================
+iqp: 0
+Time taken to execute: 0.000184964
+Time taken to transpile: 0.0016716853115234375
+Max CPU Memory: 257121
+Max GPU Memory: 44018
+===================================
+
+===================================
+iqp: 1
+Time taken to execute: 0.000189983
+Time taken to transpile: 0.0016329911290283204
+Max CPU Memory: 257121
+Max GPU Memory: 44018
+===================================
+
+===================================
+iqp: 2
+Time taken to execute: 0.00018336
+Time taken to transpile: 0.001594194924682617
+Max CPU Memory: 257121
+Max GPU Memory: 44018
+===================================
+
+===================================
+iqp: 3
+Time taken to execute: 0.000212967
+Time taken to transpile: 0.002142313141845703
+Max CPU Memory: 257121
+Max GPU Memory: 44018
+===================================
+
+===================================
+iqp: 4
+Time taken to execute: 0.000191602
+Time taken to transpile: 0.0016438443137207033
+Max CPU Memory: 257121
+Max GPU Memory: 44018
+===================================
+Mean execute: 0.0001925752
+STD execute: 1.0642766583929197e-05
+Mean transpile: 0.009722375869750976
+STD transpile: 0.0004964633438449656
+
+===================================
+iqp: 0
+Time taken to execute: 0.000239387
+Time taken to transpile: 0.013551517604248046
+Max CPU Memory: 257121
+Max GPU Memory: 44018
+===================================
+
+===================================
+iqp: 1
+Time taken to execute: 0.000219525
+Time taken to transpile: 0.013447009361694335
+Max CPU Memory: 257121
+Max GPU Memory: 44018
+===================================
+
+===================================
+iqp: 2
+Time taken to execute: 0.000274805
+Time taken to transpile: 0.013239689422973632
+Max CPU Memory: 257121
+Max GPU Memory: 44018
+===================================
+
+===================================
+iqp: 3
+Time taken to execute: 0.000191693
+Time taken to transpile: 0.01250002809338379
+Max CPU Memory: 257121
+Max GPU Memory: 44018
+===================================
+
+===================================
+iqp: 4
+Time taken to execute: 0.000143332
+Time taken to transpile: 0.012382599325195313
+Max CPU Memory: 257121
+Max GPU Memory: 44018
+===================================
+Mean execute: 0.0002137484
+STD execute: 4.4415144667556804e-05
+Mean transpile: 0.033661270141601564
+STD transpile: 0.02179338342020534
+
+===================================
+iqp: 0
+Time taken to execute: 0.000194079
+Time taken to transpile: 0.0031535390341796876
+Max CPU Memory: 257121
+Max GPU Memory: 44018
+===================================
+
+===================================
+iqp: 1
+Time taken to execute: 8.8642e-05
+Time taken to transpile: 0.0011554942145996095
+Max CPU Memory: 257121
+Max GPU Memory: 44018
+===================================
+
+===================================
+iqp: 2
+Time taken to execute: 8.1728e-05
+Time taken to transpile: 0.0011264125905761718
+Max CPU Memory: 257121
+Max GPU Memory: 44018
+===================================
+
+===================================
+iqp: 3
+Time taken to execute: 8.0573e-05
+Time taken to transpile: 0.0011155862430419921
+Max CPU Memory: 257121
+Max GPU Memory: 44018
+===================================
+
+===================================
+iqp: 4
+Time taken to execute: 7.9234e-05
+Time taken to transpile: 0.0011217286146240233
+Max CPU Memory: 257121
+Max GPU Memory: 44018
+===================================
+Mean execute: 0.00010485119999999999
+STD execute: 4.4731851664781324e-05
+Mean transpile: 0.012323760986328125
+STD transpile: 0.0022287586410644905
+
+===================================
+iqp: 0
+Time taken to execute: 9.073e-05
+Time taken to transpile: 0.004651060394042969
+Max CPU Memory: 257121
+Max GPU Memory: 44018
+===================================
+
+===================================
+iqp: 1
+Time taken to execute: 0.000103352
+Time taken to transpile: 0.0047273231054687495
+Max CPU Memory: 257121
+Max GPU Memory: 44018
+===================================
+
+===================================
+iqp: 2
+Time taken to execute: 8.6445e-05
+Time taken to transpile: 0.004764440731689453
+Max CPU Memory: 257121
+Max GPU Memory: 44018
+===================================
+
+===================================
+iqp: 3
+Time taken to execute: 8.695e-05
+Time taken to transpile: 0.0045809903328857425
+Max CPU Memory: 257121
+Max GPU Memory: 44018
+===================================
+
+===================================
+iqp: 4
+Time taken to execute: 8.9645e-05
+Time taken to transpile: 0.0046952595295410154
+Max CPU Memory: 257121
+Max GPU Memory: 44018
+===================================
+Mean execute: 9.14244e-05
+STD execute: 6.176257397485955e-06
+Mean transpile: 0.021010971069335936
+STD transpile: 0.0007345626138145444

@@ -14,7 +14,7 @@ from qiskit_aer.noise import NoiseModel
 from qiskit_ibm_runtime import QiskitRuntimeService
 
 def plotSweepingResults(means, std_devs, benchmark):
-    x = range(len(means))
+    x = [3, 7, 11, 28, 29]
 
     # Plotting the means with error bars
     plt.errorbar(x, means, yerr=std_devs, fmt='o', capsize=5)
@@ -22,8 +22,8 @@ def plotSweepingResults(means, std_devs, benchmark):
     # Adding labels and title
     plt.xlabel('Number of Qubits')
     plt.ylabel('Time (s)')
-    plt.title('Execution Time Means with Standard Deviations')
-    plt.savefig(f'plots/{benchmark}')
+    plt.title(f'Execution Time Means for {benchmark} with Standard Deviations')
+    plt.savefig(f'plots/{benchmark}_2')
 
 
 def printReadableResults(result, bm, sIdx, fus, p):
@@ -62,15 +62,14 @@ if __name__ == '__main__':
     ap.add_argument("-p", "--peephole", action="store_true")
     args = ap.parse_args()
 
-    sample_count = 10
+    sample_count = 5
 
     # Ideal simulator
-    aersim = AerSimulator(method="statevector", device="GPU", shots=1024)
-    aersim.set_options(fusion_enable=args.fusion)
     # TODO: Enable this option in configs
     # aersim.set_options(peephole_enable=True)
 
     benchmarks = os.listdir(f'qasm/{args.benchmarks.lower()}')
+    benchmarks = ["iqp_3.qasm", "iqp_7.qasm", "iqp_11.qasm", "iqp_28.qasm", "iqp-29.qasm"]
     execute_time = np.zeros(sample_count)
     transpile_times = np.zeros(sample_count)
 
@@ -78,14 +77,15 @@ if __name__ == '__main__':
     tMean = []
     eStd = []
     tStd = []
-    for qasm_code in tqdm.tqdm(benchmarks, desc="Running simulation..."):
+    for qasm_code in benchmarks: #tqdm.tqdm(benchmarks, desc="Running simulation..."):
         execute_times = np.zeros(sample_count)
         transpile_times = np.zeros(sample_count)
+        qc = qiskit.QuantumCircuit.from_qasm_file(f'qasm/{args.benchmarks.lower()}/{qasm_code}')
+        qc.measure_all()
+        # print(qc)
+        aersim = AerSimulator(method="statevector", device="GPU", shots=100)
+        aersim.set_options(fusion_enable=args.fusion)
         for i in range(sample_count):
-            qc = qiskit.QuantumCircuit.from_qasm_file(f'qasm/{args.benchmarks.lower()}/{qasm_code}')
-            qc.measure_all()
-            # print(qc)
-
             start_transpile = time.time()
             transpiled_circuit = qiskit.transpile(qc, aersim)
             end_transpile = time.time()
@@ -94,12 +94,12 @@ if __name__ == '__main__':
             job = aersim.run(qc)
             transpiled_circuit = job.circuits()
             gate_counts = transpiled_circuit[0].count_ops()
-            print(gate_counts)
+            #print(gate_counts)
 
             result_ideal = job.result()
             execute_times[i] = result_ideal.metadata['time_taken_execute']
-            printReadableResults(result_ideal, args.benchmarks.lower(), i, args.fusion, args.peephole)
-        printMeanStd(transpile_times, execute_times, args.benchmarks.lower(), args.fusion, args.peephole)
+            #printReadableResults(result_ideal, args.benchmarks.lower(), i, args.fusion, args.peephole)
+        #printMeanStd(transpile_times, execute_times, args.benchmarks.lower(), args.fusion, args.peephole)
         eMean.append(np.mean(execute_times))
         tMean.append(np.mean(transpile_times))
         eStd.append(np.std(execute_times))

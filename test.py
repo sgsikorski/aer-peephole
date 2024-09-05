@@ -20,7 +20,7 @@ if __name__ == '__main__':
     # Compile Args
     ##############################
 
-    qc = qiskit.QuantumCircuit.from_qasm_file('qasm/grover_search_28.qasm')
+    qc = qiskit.QuantumCircuit.from_qasm_file('qasm/iqp/iqp-30.qasm')
     qc.measure_all()
 
     # Ideal simulator
